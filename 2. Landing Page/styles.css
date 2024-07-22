@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* margin-top: 10px; */
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin: 30px;
+}
+img {
+  width: 100px;
+  padding-left: 20px;
+}
+
+.main {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-top: 15px;
+}
+
+input[type="email"] {
+  max-width: 700px;
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #f1c40f;
+  max-width: 150px;
+  width: 100%;
+  margin: 15px 0;
+  padding: 7px;
+  height: 30px;
+  border: 0;
+  font-weight: bold;
+}
+
+.item1,
+.item2,
+.item3 {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-between; */
+}
+
+.icon {
+  color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 125px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+.mid-portion {
+  margin-top: 50px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  gap: 8px;
+}
+
+.box1 {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  position: relative;
+}
+
+.box1 li {
+  margin-bottom: 10px;
+}
+
+.nav-content {
+  box-sizing: border-box;
+  position: absolute;
+  top: 10px;
+  background-color: #ddd;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 10px;
+}
+
+footer > span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  footer > ul {
+    flex-direction: column;
+  }
+}
